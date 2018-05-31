@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_left.xml",
+        "source": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\src\\main\\res\\animator\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\build\\intermediates\\res\\merged\\debug\\animator\\maximize.xml",
+        "source": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\src\\main\\res\\animator\\maximize.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\build\\intermediates\\res\\merged\\debug\\animator\\minimize.xml",
+        "source": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\src\\main\\res\\animator\\minimize.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_right.xml",
+        "source": "C:\\Users\\ARISTEAA\\workspace\\AndroidUnipiMaster\\androidunipi\\app\\src\\main\\res\\animator\\slide_out_right.xml"
+    }
+]

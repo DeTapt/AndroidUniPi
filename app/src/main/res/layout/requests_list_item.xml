@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+
+    <RelativeLayout
+        android:id="@+id/rel_main1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_prof"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+            android:id="@+id/rel_main2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/photo"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/rel_main3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginTop="9dp"
+                    android:text="name"
+                    android:textColor="#000000"
+                    android:paddingRight="6dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/surname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_toRightOf="@+id/name"
+                    android:background="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:text="surname" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/accept"
+                    android:text="@string/accept"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:focusable="false"
+                    android:shadowRadius="5"
+                    />
+                <Button
+                    android:id="@+id/decline"
+                    android:text="@string/delete_req"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/buttonshapedecline"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:focusable="false"
+                    android:shadowRadius="5"
+                    />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="1sp"
+                    android:textColor="#333333"
+                    android:text="Offline"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_b"
+        android:layout_below="@+id/rel_main2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#E8E8E8"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>

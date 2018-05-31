@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184069556378",
+    "firebase_url": "https://androidunipi-ca254.firebaseio.com",
+    "project_id": "androidunipi-ca254",
+    "storage_bucket": "androidunipi-ca254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184069556378:android:f79faadfade46850",
+        "android_client_info": {
+          "package_name": "com.androidunipi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184069556378-6sf8io6vhspi5ba8c7aq1ok5msjbnktj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwR_LeLCR8YJRZARCwkvc1iYzw-8Qt5po"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/my_contact_requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="15dip"
+        android:text="@string/my_sent_req"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:background="#125688"/>
+
+    <TextView
+        android:id="@+id/no_my_requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_contact_requests"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#8D8D8D"
+        android:text="@string/no_my_sent_req"/>
+
+
+
+    <ListView
+        android:id="@+id/list_my_req"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false">
+    </ListView>
+
+    <TextView
+        android:id="@+id/contact_requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="15dip"
+        android:text="@string/my_req"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:background="#125688"/>
+
+    <TextView
+        android:id="@+id/no_requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_requests"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#8D8D8D"
+        android:text="@string/no_my_req"/>
+
+
+
+    <ListView
+        android:id="@+id/list_req"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false">
+    </ListView>
+
+
+
+    <TextView
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:paddingBottom="5dip"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#125688"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:text="@string/my_contacts"/>
+
+    <TextView
+        android:id="@+id/no_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contacts"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#8D8D8D"
+        android:text="@string/no_my_contacts"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/contacts"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"/>
+
+    </LinearLayout>
+</ScrollView>

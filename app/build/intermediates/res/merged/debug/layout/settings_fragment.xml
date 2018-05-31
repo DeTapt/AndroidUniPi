@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <Button
+        android:id="@+id/btn_map_pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:background="#FFFFFF"
+        android:text="@string/map_pref"
+        android:drawableEnd="@drawable/map_marker"
+        android:drawableRight="@drawable/map_marker"
+        android:textColor="#125688"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/view_k"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <Button
+        android:id="@+id/btn_klm_pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_k"
+        android:background="#FFFFFF"
+        android:text="@string/klm_pref"
+        android:drawableEnd="@drawable/circle_map"
+        android:drawableRight="@drawable/circle_map"
+        android:textColor="#125688"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <Button
+        android:id="@+id/btn_change_credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:background="#FFFFFF"
+        android:text="@string/change_credentials"
+        android:drawableEnd="@drawable/icon_key"
+        android:drawableRight="@drawable/icon_key"
+        android:textColor="#125688"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:background="#FFFFFF"
+        android:text="@string/logout"
+        android:drawableEnd="@drawable/icon_logout"
+        android:drawableRight="@drawable/icon_logout"
+        android:textColor="#125688"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"/>
+
+</LinearLayout>

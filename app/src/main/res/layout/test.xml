@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/profileBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/insta_blue"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/user" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/avatar"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_map_pref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/map_preferences_gr"
+                android:drawableEnd="@drawable/map_marker"
+                android:drawableRight="@drawable/map_marker"
+                android:textColor="#125688"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:id="@+id/view_k"
+                android:layout_width="match_parent"
+                android:background="#125688"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"/>
+
+            <Button
+                android:id="@+id/btn_klm_pref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_k"
+                android:background="#FFFFFF"
+                android:text="@string/distance_klm_gr"
+                android:drawableEnd="@drawable/circle_map"
+                android:drawableRight="@drawable/circle_map"
+                android:textColor="#125688"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:id="@+id/view_btn_klm"
+                android:layout_width="match_parent"
+                android:background="#125688"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"/>
+
+            <Button
+                android:id="@+id/btn_change_credentials"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_btn_klm"
+                android:background="#FFFFFF"
+                android:text="@string/change_cred_gr"
+                android:drawableEnd="@drawable/icon_key"
+                android:drawableRight="@drawable/icon_key"
+                android:textColor="#125688"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:id="@+id/view_change"
+                android:layout_width="match_parent"
+                android:background="#125688"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"/>
+
+            <Button
+                android:id="@+id/btn_charging"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_change"
+                android:background="#FFFFFF"
+                android:text="@string/chargin_options_gr"
+                android:drawableEnd="@drawable/charging"
+                android:drawableRight="@drawable/charging"
+                android:textColor="#125688"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:id="@+id/view_charging"
+                android:layout_width="match_parent"
+                android:background="#125688"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"/>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_charging"
+                android:background="#FFFFFF"
+                android:text="@string/logout_gr"
+                android:drawableEnd="@drawable/icon_logout"
+                android:drawableRight="@drawable/icon_logout"
+                android:textColor="#125688"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:id="@+id/view_log"
+                android:layout_width="match_parent"
+                android:background="#125688"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

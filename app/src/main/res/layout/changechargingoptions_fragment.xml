@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_gender"
+        android:layout_marginTop="10dp"
+        android:text="@string/change_charge_op"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/insta_blue" />
+
+    <View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:background="#125688"
+    android:layout_marginTop="5dp"
+    android:layout_height="2dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/check"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox android:id="@+id/charger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/charger"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+           />
+
+        <CheckBox android:id="@+id/powerbag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/powerbag_gr"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+
+        <CheckBox android:id="@+id/usb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_charger"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+          />
+        <CheckBox android:id="@+id/usb_otg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otg_charger"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_btn"
+        android:layout_width="match_parent"
+        android:background="#125688"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/check"
+        android:layout_height="2dp"/>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_btn"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttonshape"
+        android:paddingBottom="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="10dp"
+        android:text="@string/save"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

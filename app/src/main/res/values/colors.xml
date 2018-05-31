@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#59a31b</color>
+    <color name="black">#000000</color>
+    <color name="primary_text_default_material_light">#6d6d6d</color>
+    <color name="primary_text_material_light">#6d6d6d</color>
+    <color name="toolbar_color">#dfe1e3</color>
+    <color name="courses_background">#dfe1e3</color>
+    <color name="settings_menu_background">#dfe1e3</color>
+    <color name="white">#ffffff</color>
+    <color name="marketing_color">#169BE6</color>
+    <color name="blue_france">#169BE6</color>
+    <color name="blue_text">#0097ef</color>
+    <color name="light_grey_background">#f2f3f4</color>
+    <color name="dark_blue_fonts">#0d7ab9</color>
+    <color name="grey_line">#E9EBED</color>
+    <color name="grey_text">#6d6d6d</color>
+    <color name="black_text">#2e2e2e</color>
+    <color name="light_red">#fff1f1</color>
+    <color name="red">#dc2929</color>
+    <color name="light_green_old">#c3e7a4</color>
+    <color name="light_green_material">#8bc34a</color>
+    <color name="veraman_old">#40c4c5</color>
+    <color name="light_blue_old">#94d5fb</color>
+    <color name="gold">#ffad33</color>
+    <color name="insta_blue">#125688</color>
+
+
+    <color name="light_green">#aed581</color>
+    <color name="mid_red">#e57373</color>
+    <color name="veraman">#69f0ae</color>
+    <color name="light_blue">#64b5f6</color>
+    <color name="grey_menu">#3c4a51</color>
+    <color name="pop_green">#75ff00</color>
+    <color name="intense_green">#63d701</color>
+    <color name="black_transparent">#80000000</color>
+</resources>

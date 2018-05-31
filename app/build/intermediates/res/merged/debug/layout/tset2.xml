@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel_mainn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title_phone_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:layout_marginLeft="5dp"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+            />
+
+        <TextView
+            android:id="@+id/phone_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingTop="25dp"
+            android:paddingLeft="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/title_phone_model"
+            android:gravity="center"
+            android:text="test"/>
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/insta_blue"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/title_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:layout_marginLeft="5dp"
+            android:drawableStart="@drawable/charged_bat"
+            android:drawableLeft="@drawable/charged_bat"
+            android:layout_toRightOf="@id/divider"
+            />
+
+        <TextView
+            android:id="@+id/battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingTop="25dp"
+            android:paddingLeft="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/title_battery"
+            android:gravity="center"
+            android:text="test"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewn1"
+        android:layout_below="@+id/rel_mainn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="#E8E8E8"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/rel_mainn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewn1"
+        android:orientation="horizontal" >
+
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/viewn2"
+        android:layout_below="@+id/rel_mainn1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="#E8E8E8"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_mainn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewn2"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#125688"
+            android:layout_marginLeft="5dp"
+            android:drawableStart="@drawable/charg_op"
+            android:drawableLeft="@drawable/charg_op"/>
+
+        <TextView
+            android:id="@+id/charger_yes"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_on_background"
+            android:drawableRight="@drawable/checkbox_on_background"
+            android:layout_centerHorizontal="true"
+            android:text="Charger "
+         />
+
+        <TextView
+            android:id="@+id/charger_no"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_off_background"
+            android:drawableRight="@drawable/checkbox_off_background"
+            android:text="Charger "
+            android:layout_centerHorizontal="true"
+          />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_mainn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_mainn2"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/power_bag_yes"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_on_background"
+            android:drawableRight="@drawable/checkbox_on_background"
+            android:text="Powerbag" />
+
+        <TextView
+            android:id="@+id/power_bag_no"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_off_background"
+            android:drawableRight="@drawable/checkbox_off_background"
+            android:text="Powerbag" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_mainn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_mainn3"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/usb_yes"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_on_background"
+            android:drawableRight="@drawable/checkbox_on_background"
+            android:text="@string/c_charger" />
+
+        <TextView
+            android:id="@+id/usb_no"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="6dip"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/checkbox_off_background"
+            android:drawableRight="@drawable/checkbox_off_background"
+            android:text="@string/c_charger" />
+    </RelativeLayout>
+
+
+
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@+id/rel_mainn4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="#E8E8E8"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_main_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view5"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_request_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view5"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="charging "
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableStart="@drawable/ch"
+            android:drawableLeft="@drawable/ch"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_request_battery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/or"
+            android:textColor="#a6a6a6" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/online"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:background="#59080808"
+        android:drawableEnd="@drawable/presence_online"
+        android:drawableRight="@drawable/presence_online"
+        android:textSize="20sp"
+        android:text="Online"
+        android:textColor="#333333"
+        android:paddingTop="3dp"/>
+
+    <TextView
+        android:id="@+id/offline"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:background="#59080808"
+        android:drawableEnd="@drawable/presence_invisible"
+        android:drawableRight="@drawable/presence_invisible"
+        android:textSize="20sp"
+        android:text="Offline"
+        android:textColor="#333333"
+        android:paddingTop="3dp"/>
+
+
+
+</LinearLayout>
